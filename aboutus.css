@@ -1,0 +1,224 @@
+.about{
+    width: 100%;
+    margin-top: 3rem;
+}
+.about-des{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: top;
+}
+.about-des img{
+    width: 430px;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all .2s;
+}
+.about-des img:hover{
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 15px rgb(243, 243, 59);
+}
+.bio span{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 40px;
+}
+.bio .p1{
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.bio-des{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+
+.skill{
+    margin-top: 2rem;
+    width: 100%;
+    padding: 20px 0;
+}
+.skill .title-skill{
+    font-size: 24px;
+    font-weight: 600;
+    background: #464343;
+    box-shadow: 8px 8px .2px rgb(219, 219, 33);
+    padding: 4px 8px;
+    color: yellow;
+    margin: 0 36.5rem;
+}
+.skill p{
+    margin: 30px 0;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.skill-value{
+    display: flex;
+    align-items: center;
+}
+.progress{
+    width: 630px;
+    position: relative;
+    height: 30px;
+    background: #464343;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.progress-fill1{
+    width: 90%;
+    height: 100%;
+    background: rgb(241, 241, 56);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.progress-fill2{
+    width: 80%;
+    height: 100%;
+    background: rgb(241, 241, 56);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.progress-fill3{
+    width: 70%;
+    height: 100%;
+    background: rgb(241, 241, 56);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.progress-fill4{
+    width: 85%;
+    height: 100%;
+    background: rgb(241, 241, 56);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.progress-fill5{
+    width: 76%;
+    height: 100%;
+    background: rgb(241, 241, 56);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.progress-fill6{
+    width: 60%;
+    height: 100%;
+    background: rgb(241, 241, 56);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.progress-fill7{
+    width: 79%;
+    height: 100%;
+    background: rgb(241, 241, 56);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.progress-fill8{
+    width: 65%;
+    height: 100%;
+    background: rgb(241, 241, 56);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.progress1{
+    width: 100%;
+}
+.progress-text{
+    color: yellow;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.progress-text:hover{
+    color: coral;
+}
+
+.team{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 20px 0;
+}
+.team .title-skill{
+    font-size: 24px;
+    font-weight: 600;
+    background: #464343;
+    box-shadow: 8px 8px .2px rgb(219, 219, 33);
+    padding: 4px 8px;
+    color: yellow;
+    margin: 0 36.5rem;
+    justify-content: center;   
+    margin-bottom: 2rem;
+}
+.team p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 2rem;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    border: #c0afaf;
+    margin-left: 350px;
+    cursor: pointer;
+    transition: all .2s;
+}
+.team p:hover{
+    box-shadow: 0px 0px 30px 5px #8d8383;
+    transform: translateY(-5px);
+    font-weight: bold;
+}
+.team-members{
+    padding: 20px 0;
+    width: 100%;
+    justify-content: center;
+    margin-left: 60px;
+}
+.team-members div{
+    padding: 5px 0;
+    margin-bottom: 40px;
+}
+.team-members div img{
+    border-radius: 50%;
+    display: block;
+    width: 200px;
+    border: 5px solid rgb(238, 238, 46);
+    transition: all .2s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.team-members div img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 10px rgb(128, 128, 101);
+}
+.team-members div span{
+    width: 150px;
+    padding: 5px 40px;
+    border: 1px solid black;
+    margin-left: 10px;
+    background: #464343;
+    color: rgb(238, 238, 46);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

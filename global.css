@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Rowdies:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar style starts */
+
+#navbar{
+    padding-bottom: 1em;
+}
+
+#navbar .logo1 img{
+    height: 5rem;
+    width: 5rem;
+}
+
+#navbar .logo2 img{
+    height: 5rem;
+    width: 10rem;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+    margin-right: 3rem;
+}
+
+.navbar-collapse ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 2rem;
+    display: inline-block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    border-radius: 10px;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.navbar-collapse ul li .nav-link1:hover{
+    background-color: rgb(102, 129, 252);
+}
+
+.navbar-collapse ul li .nav-link2:hover{
+    background-color: rgb(221, 71, 79);
+}
+
+.navbar-collapse ul li .nav-link3:hover{
+    background-color: rgb(117, 231, 117);
+}
+
+/* header css starts */
+
+.header .background{
+    background-image: url(./img/bg1.jpg);
+    height: 10rem;
+}
+
+.header .background h2{
+    color: black;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    font-family:'Rowdies', cursive;
+    background: rgb(245, 245, 33);
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    box-shadow: 10px 10px 10px;
+    border-radius: 10px;
+}
+
+/* footer css starts */
+
+#footer{
+    position: relative;
+    margin-top: 70px;
+    background: rgb(70, 67, 67);
+    height: 75vh;
+}
+
+.footer-top #about-us h1{
+    color: white;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 2rem;
+}
+
+.footer-top #about-us{
+    margin-top: 0;
+}
+
+#footer #about-us p{
+    font-size: 15px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 30px ;
+    margin-top: 1.8rem;
+}
+
+#footer #about-us .btn3{
+    background: yellow;
+    border-bottom: 10px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;;
+    box-shadow: none;
+    padding: 2px 20px;
+    position: absolute;    
+    margin-left: 2rem;
+    margin-top: -1rem;
+}
+
+#footer #about-us .btn3:hover{
+    background: rgb(243, 160, 52);
+    color: white;
+}
+
+.gallery-footer{
+    margin-top: 3rem;
+    margin-left: 3px;
+    max-width: 20rem;
+    height: 15rem;
+    position: relative;
+}
+
+.gallery-footer h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    color: white;
+    margin-top: 1rem;
+    left: -3px;
+}
+
+.gallery-footer ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    position: absolute;
+    left: -12px;
+    margin-top: 10px;
+}
+
+.gallery-footer li{
+    list-style: none;
+    float: left;
+    width: 31.9%;
+    height: 5rem;
+    margin-top: 0;
+    padding: 0;
+}
+
+
+.gallery-footer img{
+    max-width: 100%;
+    cursor: pointer;
+    height: 5em;
+    width: 7em;
+}
+
+#gallery-modal .modal-img{
+    width: 100%;
+}
+
+#gallery-foot .modal-body img{
+    background-size: cover;
+    max-width: 100%;
+}
+
+#gallery-foot .modal-header h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+
+#latest-tweet h1{
+    color: white;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    margin-left: 2rem;
+}
+
+#latest-tweet .des ul{
+    list-style: none;
+    color: white;
+}
+
+#latest-tweet .des ul li{
+    display: flex;
+}
+
+#latest-tweet .des ul li img{
+    width: 3rem;
+    height: 3rem;
+}
+
+#latest-tweet .des ul li p{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#latest-tweet .des ul li p span{
+    color: rgb(245, 245, 33);
+    transition: .2s;
+    cursor: pointer;
+}
+
+#latest-tweet .des ul li p span:hover{
+    color: rgb(252, 148, 11);
+    text-decoration: underline;
+}
+
+#latest-tweet .media-social{
+    margin-top: 0;
+    position: relative;
+    padding: .5rem 2rem;
+}
+
+#latest-tweet .media-social h1{
+    margin-bottom: 5rem;
+    position: absolute;
+}
+
+#latest-tweet .media-social ul{
+    margin-top: 2rem;
+    list-style: none;
+}
+
+#latest-tweet .media-social ul li{
+    display: flex;
+    justify-content: space-between;
+}
+
+#latest-tweet .media-social ul li a{
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 5px 8px;
+    background: black;
+}
+
+#latest-tweet .media-social ul li .twitter:hover{
+    background: rgb(74, 74, 223)
+}
+
+#latest-tweet .media-social ul li .facebook:hover{
+    background: rgb(18, 18, 248);
+}
+
+#latest-tweet .media-social ul li .youtube:hover{
+    background: rgb(219, 48, 48);
+}
+
+#latest-tweet .media-social ul li .linkedin:hover{
+    background: rgb(99, 99, 252);
+}
+
+#latest-tweet .media-social ul li .instagram:hover{
+    background: rgb(255, 166, 0);
+}
+
+#latest-tweet .media-social ul li .pinterest:hover{
+    background: rgb(243, 50, 50);
+}
+
+#latest-tweet .media-social ul li .tiktok:hover{
+    background: rgb(255, 72, 0);
+}
+
+#latest-tweet .media-social ul li a i{
+    color: white;
+}
+
+#contact-info h1{
+    color: white;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    margin-left: 3.3rem;
+}
+
+#contact-info ul{
+    margin-top: 3rem;
+}
+
+#contact-info ul li{
+    display: flex;
+}
+
+#contact-info ul li span{
+    list-style: none;
+}
+
+#contact-info ul li span i{
+    color: white;
+}
+
+#contact-info ul li p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 2rem;
+}
+
+#contact-info ul li a{
+    text-decoration: none;
+    color: rgb(245, 245, 33);
+    transition: .2s;
+}
+
+#contact-info ul li a:hover{
+    color: rgb(252, 148, 11);
+    text-decoration: underline;
+}
+
+#contact-info .mail{
+    border: 1px solid transparent;
+}
+
+#contact-info .mail p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 3.3rem;
+    margin-top: 3rem;
+}
+
+#contact-info .mail input{
+    width: 350px;
+    background: rgb(70, 67, 67);
+    border: none;
+    border-bottom: 2px solid yellow;
+    margin-left: 1rem;
+    margin-top: -2rem;
+}
+
+#contact-info .mail span{
+    margin-left: 1rem;
+}
+
+.footer-bot .container-fluid{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+
+.footer-bot .container-fluid h4{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: 14rem;
+}
+
+.footer-bot .container-fluid span{
+    color: rgb(245, 245, 33);
+    cursor: pointer;
+}
+
+.footer-bot .container-fluid ul{
+    display: flex;
+    list-style: none;
+    margin-right: 7rem;
+}
+
+.footer-bot .container-fluid ul li{
+    margin-right: 2rem;
+    margin-top: 4rem;
+}
+
+.footer-bot .container-fluid ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer-bot .container-fluid ul li a:hover{
+    color: rgb(245, 245, 33);
+}

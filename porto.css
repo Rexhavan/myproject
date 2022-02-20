@@ -1,0 +1,103 @@
+.content-fliter .content-tittle{
+    margin-top: 3rem;
+}
+
+.content-fliter .content-tittle h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.content-filter .content-tittle h4{
+    font-weight: bolder;
+    line-height: 2em;
+}
+
+.category-head{
+    margin: 30px 0;
+}
+
+.category-head ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.category-title{
+    margin-right: 2rem;
+}
+
+.category-title li{
+    font-size: 24px;
+    padding: 1rem 2rem;
+    transition: .2s;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.category-title li:hover{
+    background: rgb(247, 233, 39);
+}
+
+.filter-container .post-collect{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.filter-container .post-collect .card{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.filter-container .post-collect .card .card-body{
+    background: rgb(233, 160, 25);
+}
+
+.filter-container .post-collect .card img{
+    height: 25rem;
+}
+
+.filter-container .post-collect .card .card-body button{
+    border-radius: 10px;
+    background: black;
+    padding: 10px 15px;
+    transition: .2s;
+    border: none;
+}
+
+.filter-container .post-collect .card .card-body button:hover{
+    background: rgb(66, 64, 64);
+}
+
+.filter-container .post-collect .card .card-body .btn a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+
+.filter-container .post-collect .card .card-body ul{
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.filter-container .post-collect .card .card-body ul .list-style{
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    left: -1rem;
+}
+
+.filter-container .post-collect .card .card-body ul .date{
+    margin-left: 21.9rem;
+    position: absolute;
+}
+
+.filter-container .post-collect .card .card-body .calendar{
+    margin-top: 2rem;
+    padding-bottom: 0;
+}

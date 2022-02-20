@@ -1,0 +1,250 @@
+.project .carousel{
+    border: 5px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+}
+
+.project .carousel-indicators button{
+    height: 3rem;
+    width: 3rem;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid transparent;
+}
+
+.project .carousel-indicators button.active{
+    border-color: #ffffff;
+}
+
+.project .carousel-item{
+    min-height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.project .carousel-control-prev{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    margin-top: 15rem;
+}
+
+.project .carousel-control-next{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    margin-top: 15rem;
+}
+
+/* desc css starts */
+
+.left-content-1 .desc{
+    margin-top: 3rem;
+}
+
+.left-content-1 .desc span{
+    border: 1px solid black;
+    background: rgb(66, 62, 62);
+    color: rgb(247, 233, 39);
+    padding: 8px 15px;
+    box-shadow: 7px 5px 1px;
+    font-size: 20px;
+}
+
+.left-content-1 .desc p{
+    margin-top: 3rem;
+}
+
+.left-content-1 .gallery-project{
+    margin-top: 2rem;
+}
+
+.left-content-1 .gallery-project span{
+    border: 1px solid black;
+    background: rgb(66, 62, 62);
+    color: rgb(247, 233, 39);
+    padding: 8px 15px;
+    box-shadow: 7px 5px 1px;
+    font-size: 20px;
+}
+
+.left-content-1 .gallery-project ul{
+    list-style: none;
+    display: flex;
+    margin-left: -2rem;
+    margin-top: 1.5rem;
+}
+
+.left-content-1 .gallery-project ul li{
+    justify-content: space-between;
+    margin: 0 5px;
+}
+
+.left-content-1 .gallery-project img{
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#gallery-modal .modal-img{
+    width: 100%;
+}
+
+#gallery-pro .modal-body img{
+    background-size: cover;
+    max-width: 100%;
+}
+
+#gallery-pro .modal-header h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+.right-content{
+    position: relative;
+}
+
+.right-content .right-content-1{
+    right: 0;
+    padding: 50px 30px;
+    background: rgb(66, 62, 62);
+    position: absolute;
+}
+
+.right-content .right-content-1 .title{
+    color: rgb(247, 233, 39);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 2rem;
+}
+
+.right-content .right-content-1 .list-project{
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.right-content .right-content-1 .list-project span{
+    background: yellow;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.right-content .right-content-1 .list-project a{
+    line-height: 3rem;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.right-content .right-content-1 .list-project a:hover{
+    color: yellow;
+}
+
+.right-content .right-content-2{
+    position: absolute;
+    top: 28rem;
+    left: 0;
+    border: 1px solid black;
+    background: rgb(66, 62, 62);
+}
+
+.right-content .right-content-2 .title{
+    color: rgb(247, 233, 39);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 2rem;
+}
+
+.right-content .right-content-2 ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.right-content .right-content-2 ul li{
+    display: flex;
+    margin-top: -5px;
+}
+
+.right-content .right-content-2 ul li .links{
+    padding-bottom: 0;
+}
+
+.right-content .right-content-2 ul li img{
+    height: 80px;
+    width: 90px;
+}
+
+.right-content .right-content-2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    margin-top: 0;
+    transition: .2s;
+}
+
+.right-content .right-content-2 ul li a:hover{
+    color: yellow;
+}
+
+.right-content .right-content-2 ul li .info{
+    color: white;
+    margin-left: 13.7rem;
+    line-height: 5.5rem;
+}
+
+.right-content .right-content-2 ul li .info i{
+    color: yellow;
+}
+
+.right-content .right-content-3{
+    position: absolute;
+    top: 68rem;
+    border: 1px solid black;
+    left: 0;
+    background: rgb(66, 62, 62);
+    padding-bottom: 2.5rem;
+}
+
+.right-content .right-content-3 .title{
+    color: rgb(247, 233, 39);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 2rem;
+    position: absolute;
+    margin-top: 1rem;
+}
+
+.right-content .right-content-3 .span1{
+    margin-top: 5rem;
+    margin-left: 2rem;   
+}
+
+.right-content .right-content-3 .span1 span{
+    margin-right: 3px;
+    background: rgb(247, 233, 39);
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.right-content .right-content-3 .span1 span a{
+    text-decoration: none;
+    color: black;
+}
+
+.right-content .right-content-3 .span1 span:hover{
+    background: rgb(190, 179, 21);
+    border-radius: 10px;
+    color: grey;
+}

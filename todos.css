@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background: rgb(247, 209, 215);
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+}
+  
+header {
+    font-size: 1.2rem;
+    margin-bottom: -3rem;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+header, form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+form input{
+    padding: 5px 40px;
+    font-size: 12px;
+    border: none;
+    background: white;
+    border-radius: 10px;
+}
+  
+form button{
+    color: white;
+    background: rgb(233, 59, 88);
+    cursor: pointer;
+    font-size: 12px;
+    transition: all .2s ease;
+    border: none;
+    border-radius: 10px;
+    margin-left: 0.4rem;
+    padding: 5px 10px;
+}
+  
+form button:hover {
+    color: white;
+    background: rgb(29, 221, 29);
+}
+  
+button:focus {
+    border: none;
+}
+  
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.todo-list {
+    min-width: 40%;
+    list-style: none;
+    padding-bottom: 2rem;
+    transition: all 0.5s ease;
+}
+  
+.todo {
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 60px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+.todo-input {
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+  
+.add-button {
+    background-color: #2ee700;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1.2rem;
+}
+  
+.todo-items {
+    min-width: 350px;
+    list-style: none;
+}
+  
+.item {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+  
+.item:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+  
+.item:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+  
+.checkbox {
+    margin-right: 10px;
+}
+  
+.delete-button {
+    float: right;
+    background-color: #ff2f00;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+
+.checked { 
+    color: rgb(61, 250, 61);
+}
+
+/* footer css starts */
+
+.footer-right{
+    border: 1px solid black;
+    position: relative;
+}
